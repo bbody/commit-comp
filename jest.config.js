@@ -37,4 +37,5 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: ['**/*.{vue}', '**/*.ts', '!**/node_modules/**', '!<rootDir>/dist/**', '!<rootDir>/src/plugins/**', '!<rootDir>/tests/unit/**'],
   coverageReporters: ['lcov', 'text-summary'],
+  setupTestFrameworkScriptFile: "./jest-setup.js"
 }
